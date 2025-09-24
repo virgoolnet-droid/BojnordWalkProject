@@ -17,6 +17,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
+       <activity
+        android:name=".AdminActivity"
+        android:exported="false" />
+ </application>
 
 </manifest>
